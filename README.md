@@ -9,10 +9,10 @@ I am a remote developer building a feature for 'Aura Beauty Salon'. In my local 
 - **Architected Dynamic Math Deductions:** Programmed backend logic inside the `__construct` method to automatically process multi-layered financial workflows, including base prices, dynamic discount deductions, and precise regional tax applications.
 - **Clean Code & Documented Workflows:** Focused on industry-standard formatting, separating data extraction from rendering logic, and utilizing semantic formatting (`<strong>`) for critical user invoice anchors.
 
-## 🧬 Object Inheritance & Backend Code Reusability
+##  Object Inheritance & Backend Code Reusability
 - **Mastered Structural Architecture:** Programmed dynamic parent-child class relationships (`BasicUser` and `VIPCustomer`) using the `extends` keyword to completely eliminate redundant code properties.
 - **Implemented Modular Scalability:** Leveraged backend data injection to inherit core structures while dynamically introducing unique customer workflows (VIP Discounts) for platform customization.
 
-## 💳 Scalable E-Commerce Payment Gateway Engine Architecture
+##  Scalable E-Commerce Payment Gateway Engine Architecture
 - **Engineered Polymorphic Checkouts:** Developed `payment-engine.php` using advanced class hierarchy to scale multiple automated transaction systems (`StripePayment` and `BankTransfer`) from a centralized monetary core.
 - **Architected Secure Financial Workflows:** Utilized `parent::__construct()` to safely process baseline transaction totals while isolation functional variations, including string-masked credit card security and automated local fee calculations.
