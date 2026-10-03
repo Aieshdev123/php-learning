@@ -17,7 +17,7 @@ class SalonService
 }
 
 // -------------------------------------------------------------------
-// ⚡ Jadoo: Ab hum sirf 1 line mein naya object bhi banayenge aur data bhi bhejenge!
+//  Jadoo: Ab hum sirf 1 line mein naya object bhi banayenge aur data bhi bhejenge!
 // -------------------------------------------------------------------
 
 // Object 1: Hair Cut
@@ -26,8 +26,5 @@ $hairCut = new SalonService("Hair Cut", 2500);
 // Object 2: Facial
 $facial = new SalonService("Facial", 3000);
 
-// Screen par display karne ke liye
-echo $hairCut->getInvoice();
-echo "<br>";
-echo $facial->getInvoice();
-?>
+echo $hairCut->getInvoice() . PHP_EOL;
+echo $facial->getInvoice() . PHP_EOL;
