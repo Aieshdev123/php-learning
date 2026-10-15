@@ -36,3 +36,15 @@ I built a real, working Secure Login Form where users can type their email and p
 - **Live Form Handling (`$_POST`):** I mastered how data travels from HTML input boxes on the screen directly into PHP backend objects using the `POST` method.
 - **Universal Backend Logic:** Learnt that this exact Form Processing and POST method concept works the same way across all backend systems globally (including Node.js and Python).
 
+
+
+## 💳 Project 2: Interactive E-Commerce Payment Gateway (project2-payment-engine.php)
+
+### Project Overview
+I built a real-world, interactive checkout portal where users can choose their payment method and process transactions dynamically. The system automatically routes the request to the correct gateway payment class, handles dynamic fee calculations, and renders a clean invoice screen.
+
+### Key Concepts Cleared:
+- **Smart Code Reusability (Inheritance):** Created a parent core engine (`PaymentGateway`) to hold the main order price, allowing child classes (`StripePayment` and `BankTransfer`) to extend and reuse the same base features.
+- **Fintech Card Security (String Masking):** Implemented programmatic card masking. The system intercepts the raw 16-digit card input and hides sensitive digits (`**** **** ****`), leaving only the last 4 digits visible on the screen receipt.
+- **Dynamic State Form Handling (`$_POST`):** Used runtime POST request capture to read user options directly from selection menus and trigger entirely different processing fees and transaction templates on the fly.
+- **Automated Validation Guardrails:** Programmed arithmetic validation checks (`<= 0`) to immediately intercept and reject invalid or negative numbers, keeping the financial data safe from entry errors.

@@ -3,6 +3,11 @@
  * 🏆 PROJECT 1: INTERACTIVE USER & ROLE AUTHENTICATION SYSTEM
  * Architecture: PHP OOP Core Basics + Interactive HTML5/CSS3 UI Portal
  * Focus: $_POST Global Context, Runtime State Form Handling & Secure Alert Injections
+ * 
+ * 💡 LIVE TESTING CREDENTIALS (MOVED TO SECURE BACKEND COMMENT):
+ * -------------------------------------------------------------
+ * • Admin Access:    ali@fintech.com  | Password: securePass123
+ * • Customer Access: sara@client.com | Password: customerPass786
  */
 
 class UserAuthentication {
@@ -38,7 +43,7 @@ class UserAuthentication {
     }
 }
 
-// 🟩 SYSTEM BASE RECORDS (Registered Users)
+// SYSTEM BASE RECORDS (Registered Users)
 $adminUser = new UserAuthentication("Ali Admin", "ali@fintech.com", "securePass123", "Admin");
 $customerUser = new UserAuthentication("Sara Customer", "sara@client.com", "customerPass786", "Customer");
 
@@ -80,7 +85,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         .success { background: #e3fcef; color: #006644; border-left: 5px solid #00875a; }
         .warning { background: #fff0b3; color: #a54800; border-left: 5px solid #ffab00; }
         .danger { background: #ffebe6; color: #bf2600; border-left: 5px solid #de350b; }
-        .credentials-box { background: #f8f9fa; padding: 15px; border-radius: 6px; border: 1px dashed #ced6e0; margin-top: 20px; width: 100%; max-width: 400px; box-sizing: border-box; font-size: 12px; color: #747d8c; }
     </style>
 </head>
 <body>
@@ -105,13 +109,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             </div>
             <button type="submit">Authenticate Session</button>
         </form>
-    </div>
-
-    <!-- Credentials Cheat-Sheet Container for Live Testing -->
-    <div class="credentials-box">
-        <strong>💡 Live Testing Credentials:</strong><br>
-        • Admin Access: <u>ali@fintech.com</u> | Password: <u>securePass123</u><br>
-        • Customer Access: <u>sara@client.com</u> | Password: <u>customerPass786</u>
     </div>
 
 </body>
