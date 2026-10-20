@@ -7,7 +7,7 @@
  * 💡 LIVE TESTING CREDENTIALS (MOVED TO SECURE BACKEND COMMENT):
  * -------------------------------------------------------------
  * • Admin Access:    ali@fintech.com  | Password: securePass123
- * • Customer Access: sara@client.com | Password: customerPass786
+ * • Customer Access: sara@client.com | Password:  
  */
 
 class UserAuthentication {

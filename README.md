@@ -48,3 +48,22 @@ I built a real-world, interactive checkout portal where users can choose their p
 - **Fintech Card Security (String Masking):** Implemented programmatic card masking. The system intercepts the raw 16-digit card input and hides sensitive digits (`**** **** ****`), leaving only the last 4 digits visible on the screen receipt.
 - **Dynamic State Form Handling (`$_POST`):** Used runtime POST request capture to read user options directly from selection menus and trigger entirely different processing fees and transaction templates on the fly.
 - **Automated Validation Guardrails:** Programmed arithmetic validation checks (`<= 0`) to immediately intercept and reject invalid or negative numbers, keeping the financial data safe from entry errors.
+
+
+##  Module 2: Advanced Custom WordPress Plugin (Aura Salon Project)
+
+### What is this feature?
+I upgraded the Aura Beauty Salon plugin to include two high-value backend engines without touching the WordPress core or breaking the website's original code.
+
+### What I Built & Solved (In Simple Words):
+
+1. **Continuous Promotional Ticker Hook (`wp_head`):**
+   - **What it does:** Injected a beautiful, automated moving discount banner right at the very top of the website.
+   - **The Problem I Solved:** On smaller mobile and tablet screens, the layout was crashing and text was overlapping. I applied expert responsive CSS (`white-space: nowrap` and `max-content`) to force the code to stay in one smooth, unbreakable row across all devices.
+
+2. **Hidden Security Audit Logger (`wp_footer`):**
+   - **What it does:** Programmed an invisible security monitor that automatically checks the system layout and drops a secure green validation log inside the browser console.
+   - **Why it matters:** Normal salon clients won't see it, but developers or the client can open the browser dashboard (`Ctrl + Shift + J`) to verify that the core defense layers are running in real-time.
+
+3. **Modular Code Architecture:**
+   - Structured everything using clean Object-Oriented Programming (OOP) classes so the code stays safe, tidy, and fully compatible with future site updates.
