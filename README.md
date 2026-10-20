@@ -67,3 +67,4 @@ I upgraded the Aura Beauty Salon plugin to include two high-value backend engine
 
 3. **Modular Code Architecture:**
    - Structured everything using clean Object-Oriented Programming (OOP) classes so the code stays safe, tidy, and fully compatible with future site updates.
+
